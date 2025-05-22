@@ -614,6 +614,7 @@ nav{
 
 .footer__container{
   row-gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer__logo{
@@ -690,6 +691,12 @@ nav{
   background-color: hsla(0, 0%, 40%);
 }
 
+.coffee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 
 
 /*=============== SCROLL UP ===============*/
@@ -730,6 +737,12 @@ nav{
 
   .nav{
     padding: 1rem;
+  }
+
+  .coffee{
+    display: flex;
+    flex-direction: column;
+  
   }
 }
 
@@ -796,6 +809,7 @@ nav{
     bottom: 3rem;
   }
 }
+
 
 /* For large devices */
 
@@ -939,9 +953,11 @@ nav{
     column-gap: 3rem;
   }
 
+
   .footer__copy{
     margin: 7rem;
   }
+
 }
 
 
